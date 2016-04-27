@@ -1,0 +1,69 @@
+body {
+  padding: 1em;
+}
+
+.hidn {
+  display: none;
+  transition: all 0.4s;
+}
+
+#nxt {
+  float: right;
+}
+
+#prev {
+  float: left;
+}
+.card {
+  padding: 1em;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+ 
+}
+
+.above {
+  position: absolute;
+  top: 5%;
+  left:0;
+  right:0;
+}
+
+.wsearch {
+  text-align: center;
+  justify-content: center;
+}
+
+#txtbx {
+  text-align: center;
+}
+
+#wikisrch {
+  transition: all 0.4s;
+}
+
+.btn-lg {
+  padding: 18px 28px;
+  font-size: 22px;
+  line-height: normal;
+  border-radius: 8px;
+}
+
+#wiki{
+  text-align: left;
+}
+
+.btn {
+  transition: all .4s;
+  cursor: pointer;
+}
+
+a {
+  transition: all .4s;
+  cursor: pointer;
+}
+

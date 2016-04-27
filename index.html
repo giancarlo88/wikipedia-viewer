@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+  <div id="wikisrch" class="centered wsearch">
+    <form class="form-inline" id="srch" name="wiki search">
+      <fieldset class="form-group">
+        <input id="txtbx" type="text" class="form-control fluid" placeholder="Type here" name="srch"><br><br>
+        <input class="btn btn-primary btn-lg" type="button" id="btn" value="Search Wikipedia"><br><br>
+        <div id = "rndbutton"><a href = "https://en.wikipedia.org/wiki/Special:Random"><button class="btn btn-danger">Surprise Me</button></a></div>
+      </fieldset>
+    </form>
+    <div class="container" id="wiki"></div>
+    <div id="navbuttons" class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <a href="#top" class="btn btn-primary hidn" id="prev">Previous Page</a><a class="btn btn-primary hidn" href="#top" id="nxt">Next Page</a></div>
+    </div>
+  </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
